@@ -1,5 +1,5 @@
 # MLA'19 Twitter analysis and wordcloud generation
-In this repository is the code I have been using to generate the graphs and wordclouds associated with the 2018 Medical Library Association annual conference in Atlanta, GA
+Below is the code I have been using to generate the graphs and wordclouds associated with the 2019 Medical Library Association annual conference in Chicago.
 
 I have been hacking this together over a number of conferences, and over a period of time. By request, I am sharing it here for the enlightenment and curiosity of others. I have attempted to clean it up a little bit, and add some cursory comments to help people understand which parts are doing what. However, this is not intended to be a tutorial, nor do I claim a deep understanding of every element of what I utilize here. I am only beginning my journey with Natural Language Processing. 
 
@@ -8,6 +8,7 @@ So to anyone who ventures below: Thanks for having a look! I always welcome advi
 Cheers and regards!
 
 Peter
+
 
 ```
 Peter Oxley, PhD
