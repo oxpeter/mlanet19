@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="8bfb4137-9a73-4505-acda-805b66b8658c" data-root-id="1236"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1484">
+          {"d6414c26-f5fb-4fbb-8a9d-eb739b9dda63":{"roots":{"references":[{"attributes":{"below":[{"id":"1245","type":"CategoricalAxis"}],"center":[{"id":"1248","type":"Grid"},{"id":"1253","type":"Grid"},{"id":"1278","type":"Legend"}],"left":[{"id":"1249","type":"LinearAxis"}],"plot_width":1200,"renderers":[{"id":"1268","type":"GlyphRenderer"},{"id":"1284","type":"GlyphRenderer"},{"id":"1301","type":"GlyphRenderer"}],"title":{"id":"1271","type":"Title"},"toolbar":{"id":"1258","type":"Toolbar"},"x_range":{"id":"1237","type":"FactorRange"},"x_scale":{"id":"1241","type":"CategoricalScale"},"y_range":{"id":"1239","type":"DataRange1d"},"y_scale":{"id":"1243","type":"LinearScale"}},"id":"1236","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"1234","type":"ColumnDataSource"},"glyph":{"id":"1265","type":"VBar"},"hover_glyph":{"id":"1267","type":"VBar"},"muted_glyph":null,"name":"Original","nonselection_glyph":{"id":"1266","type":"VBar"},"selection_glyph":null,"view":{"id":"1269","type":"CDSView"}},"id":"1268","type":"GlyphRenderer"},{"attributes":{"bottom":{"field":"rt_rply"},"fill_color":{"value":"#F35340"},"line_color":{"value":"#F35340"},"top":{"field":"total_tweets"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1265","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"is_retweet"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1299","type":"VBar"},{"attributes":{"callback":null,"mode":"vline","names":["Retweets"],"tooltips":[["","@user"],["mean time of day","@creation_hour"],["total tweets","@total_tweets"],["original","@is_original"],["replies","@is_reply"],["retweets","@is_retweet"]]},"id":"1235","type":"HoverTool"},{"attributes":{"callback":null,"factors":["pfanderson","hurstej","akaur0","wichor","VPannabecker","EMorETon47","TBrigham","meansell","ChrisTheCat","ChelseaMisquith","wonderbrarian","LibrarianLizy","angspenc","LMLibrarian","noisy_nora","oponiak","referencediva","openpeonie","billchase2edu","FutureDocs","NoetheMatt","mlrethlefsen","JoleneMiller419","mandosally","KDNyhan","sarahclarke138","AJaggers324","VisualDx","krafty","mbbassdrlib","LibrarianWalker","elenaazad","janicekung","bgreen1005","lwu5","s_schulte","CDDSlib","evardell","margotmal","ItsKelsaB","lisalibrarian","RyloLH","Taneya","EvidenceRobot","FinnBalrForeve1","openathens","BerrymanD","akepsel","HannahC_MLIS","HS_Librarian","ccuchens","giustini","oxpeter","laurissagann","andreaketchum","mnfratta","elizabennet2018","CarolinaFan1982"]},"id":"1237","type":"FactorRange"},{"attributes":{"source":{"id":"1234","type":"ColumnDataSource"}},"id":"1269","type":"CDSView"},{"attributes":{"fill_color":{"value":"#249DF0"},"line_color":{"value":"#249DF0"},"top":{"field":"is_retweet"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1300","type":"VBar"},{"attributes":{"callback":null},"id":"1239","type":"DataRange1d"},{"attributes":{"text":""},"id":"1271","type":"Title"},{"attributes":{"data_source":{"id":"1234","type":"ColumnDataSource"},"glyph":{"id":"1298","type":"VBar"},"hover_glyph":{"id":"1300","type":"VBar"},"muted_glyph":null,"name":"Retweets","nonselection_glyph":{"id":"1299","type":"VBar"},"selection_glyph":null,"view":{"id":"1302","type":"CDSView"}},"id":"1301","type":"GlyphRenderer"},{"attributes":{},"id":"1241","type":"CategoricalScale"},{"attributes":{},"id":"1272","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1234","type":"ColumnDataSource"}},"id":"1302","type":"CDSView"},{"attributes":{},"id":"1243","type":"LinearScale"},{"attributes":{},"id":"1274","type":"CategoricalTickFormatter"},{"attributes":{"label":{"value":"Retweets"},"renderers":[{"id":"1301","type":"GlyphRenderer"}]},"id":"1313","type":"LegendItem"},{"attributes":{"callback":null,"data":{"creation_hour":{"__ndarray__":"MK5+0FGBKEBJptsskukqQGVKpmRKpilACRRtNXiOLECp72zUd7YvQE422WSTzSpABSadmge5K0C6NT8sUgYsQGZmZmZmJilA1uImzO9qLUA8PDw8PLwsQGZZlmVZli1Am/cpLhmCK0DRXkJ7Ce0oQNAhNcF4Ky1AJxhvZZ9DJEC6ubm5ubkrQEmSJEmSJCpAq6qqqqqqKUC3bdu2bdspQAzOx+B8DCpArRtMkc+6LUAV+awbTJErQKbIZ91giipA4uHh4eHhLUDx8PDw8PAsQAAAAAAAUChA33vvvffeKUAyxhhjjDEmQERERERERClAaC+hvYT2KkCe2Imd2IkqQD0K16NwPShAyEIWspCFLEB605ve9KYpQEYXXXTRRShAXXTRRRddKECe53me53kqQG7btm3btiVA27Zt27ZtLUC3bdu2bdskQDMzMzMzsy1AmpmZmZkZMEA5juM4juMvQLW0tLS0tCBAAAAAAAAAL0AAAAAAAIAmQAAAAAAAYClAt23btm3bLkAAAAAAAAAmQKOLLrrooitAmpmZmZmZK0BmZmZmZmYuQAAAAAAAACZAAAAAAABALkBu27Zt27YrQAAAAAAAACdAAAAAAAAAK0A=","dtype":"float64","shape":[58]},"favorite_mean":{"__ndarray__":"IHRU4Iur/z/I1xsU8vUGQHD5lm/5lvc/QdFWg+cIAEDaqO9s1HfGPx988MEHHwRALlaGb0SB+T+Y0F5CewkRQJqZmZmZmQpAi5swv6vF/T/i4eHh4eENQLdt27Zt2xJAMgTraPM+9T/tJbSX0F4OQGG8lX0Oqfk/AAAAAAAAAACcm5ubm5v7PwzDMAzDMBZAMQzDMAzD+D+GYRiGYRj+P4PzMTgfg+M/MEU+6wZTEEB2gynyWTcQQIp81g2myBtAtbS0tLS0EEAeHh4eHh4OQAAAAAAAwANAnXPOOeec4z+ttdZaa60NQN7d3d3d3f0/ob2E9hLaA0DsxE7sxE70P6RwPQrXoxhAb3rTm970BkA4velNb3oLQC+66KKLLhhARhdddNFFKUDoeZ7neZ4lQIZhGIZhGBJA27Zt27ZtH0CrqqqqqqoeQDMzMzMzMwtAMzMzMzMz/z8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA4j8AAAAAAKAgQAAAAAAAAPI/JUmSJEmSCEAAAAAAAAAMQLrooosuuvg/MzMzMzMzB0AzMzMzMzMPQJqZmZmZmdk/AAAAAAAAAADbtm3btm0TQKuqqqqqqgJAAAAAAAAAJEA=","dtype":"float64","shape":[58]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57],"is_original":[150,320,46,111,3,22,51,33,24,20,35,46,14,39,9,0,40,30,20,3,2,21,34,23,13,16,13,23,23,15,25,11,23,12,18,12,15,19,11,19,12,16,13,0,0,16,16,1,3,5,6,1,4,1,0,3,3,0],"is_reply":[92,1,53,117,6,108,3,23,31,18,14,13,5,2,27,0,10,0,1,0,1,5,1,5,20,0,1,2,0,7,1,0,0,8,0,5,2,0,8,2,3,2,6,0,0,0,0,1,5,0,4,9,5,0,0,3,3,4],"is_retweet":[146,10,135,2,179,2,47,25,25,41,19,4,42,13,17,53,1,12,21,39,38,11,2,9,1,18,18,6,8,8,1,15,2,3,5,5,5,2,2,0,6,2,1,18,17,0,0,14,6,7,1,0,1,9,8,1,0,0],"retweet_mean":{"__ndarray__":"2G6WJ5Fp9D921USVXTXhP4ERGIERGPk/Kh/G/bqk0j+jvrNR39kCQGWTTTbZZNM/ZfhGFJh0+j9CewntJbT3P83MzMzMzP4/smcgKh3ZA0AeHh4eHh7+P5IkSZIkSeI/FZcMwTra/D97Ce0ltJf4P4y3ss8hNfE/h9QE463sA0CXlpaWlpbGP57neZ7nefY/Pc/zPM/z9D+GYRiGYRgCQBmcj8H5GBBAdoMp8lk3+D92gynyWTfoP7RuMEU+6/Y/eHh4eHh46D/Ew8PDw8MHQAAAAAAAgAVAjDHGGGOM4T/XWmuttdbqP6uqqqqqquo/ewntJbSX4D92Yid2Yif2P+xRuB6F6/E/05ve9KY37T+ykIUsZCH7P3TRRRdddAFAF1100UUXAUCe53me53kGQJ7neZ7nee4/6Hme53me9z8YhmEYhmEAQGZmZmZmZgBAMzMzMzMzwz9VVVVVVVX9Pw8PDw8PD/8/AAAAAAAAwD8AAAAAAADuPwAAAAAAgAFASZIkSZIkDUBVVVVVVVUFQEYXXXTRRbc/mpmZmZmZ2T8AAAAAAADwP83MzMzMzARAAAAAAAAAB0CSJEmSJEnyP1VVVVVVVcU/AAAAAAAA9D8=","dtype":"float64","shape":[58]},"rt_rply":[238,11,188,119,185,110,50,48,56,59,33,17,47,15,44,53,11,12,22,39,39,16,3,14,21,18,19,8,8,15,2,15,2,11,5,10,7,2,10,2,9,4,7,18,17,0,0,15,11,7,5,9,6,9,8,4,3,4],"total_tweets":[388,331,234,230,188,132,101,81,80,79,68,63,61,54,53,53,51,42,42,42,41,37,37,37,34,34,32,31,31,30,27,26,25,23,23,22,22,21,21,21,21,20,20,18,17,16,16,16,14,12,11,10,10,10,8,7,6,4],"user":["pfanderson","hurstej","akaur0","wichor","VPannabecker","EMorETon47","TBrigham","meansell","ChrisTheCat","ChelseaMisquith","wonderbrarian","LibrarianLizy","angspenc","LMLibrarian","noisy_nora","oponiak","referencediva","openpeonie","billchase2edu","FutureDocs","NoetheMatt","mlrethlefsen","JoleneMiller419","mandosally","KDNyhan","sarahclarke138","AJaggers324","VisualDx","krafty","mbbassdrlib","LibrarianWalker","elenaazad","janicekung","bgreen1005","lwu5","s_schulte","CDDSlib","evardell","margotmal","ItsKelsaB","lisalibrarian","RyloLH","Taneya","EvidenceRobot","FinnBalrForeve1","openathens","BerrymanD","akepsel","HannahC_MLIS","HS_Librarian","ccuchens","giustini","oxpeter","laurissagann","andreaketchum","mnfratta","elizabennet2018","CarolinaFan1982"]},"selected":{"id":"1292","type":"Selection"},"selection_policy":{"id":"1293","type":"UnionRenderers"}},"id":"1234","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"1274","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"ticker":{"id":"1246","type":"CategoricalTicker"}},"id":"1245","type":"CategoricalAxis"},{"attributes":{},"id":"1257","type":"ResetTool"},{"attributes":{},"id":"1246","type":"CategoricalTicker"},{"attributes":{"label":{"value":"Original"},"renderers":[{"id":"1268","type":"GlyphRenderer"}]},"id":"1279","type":"LegendItem"},{"attributes":{"ticker":{"id":"1246","type":"CategoricalTicker"}},"id":"1248","type":"Grid"},{"attributes":{"formatter":{"id":"1272","type":"BasicTickFormatter"},"ticker":{"id":"1250","type":"BasicTicker"}},"id":"1249","type":"LinearAxis"},{"attributes":{"bottom":{"field":"is_retweet"},"fill_color":{"value":"#FF9F0C"},"line_color":{"value":"#FF9F0C"},"top":{"field":"rt_rply"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1281","type":"VBar"},{"attributes":{},"id":"1250","type":"BasicTicker"},{"attributes":{"bottom":{"field":"is_retweet"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"rt_rply"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1282","type":"VBar"},{"attributes":{"dimension":1,"ticker":{"id":"1250","type":"BasicTicker"}},"id":"1253","type":"Grid"},{"attributes":{"bottom":{"field":"is_retweet"},"fill_color":{"value":"#249DF0"},"line_color":{"value":"#249DF0"},"top":{"field":"rt_rply"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1283","type":"VBar"},{"attributes":{"data_source":{"id":"1234","type":"ColumnDataSource"},"glyph":{"id":"1281","type":"VBar"},"hover_glyph":{"id":"1283","type":"VBar"},"muted_glyph":null,"name":"Replies","nonselection_glyph":{"id":"1282","type":"VBar"},"selection_glyph":null,"view":{"id":"1285","type":"CDSView"}},"id":"1284","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1235","type":"HoverTool"},{"id":"1254","type":"PanTool"},{"id":"1255","type":"BoxZoomTool"},{"id":"1256","type":"BoxSelectTool"},{"id":"1257","type":"ResetTool"}]},"id":"1258","type":"Toolbar"},{"attributes":{"source":{"id":"1234","type":"ColumnDataSource"}},"id":"1285","type":"CDSView"},{"attributes":{"items":[{"id":"1279","type":"LegendItem"},{"id":"1296","type":"LegendItem"},{"id":"1313","type":"LegendItem"}]},"id":"1278","type":"Legend"},{"attributes":{},"id":"1254","type":"PanTool"},{"attributes":{},"id":"1292","type":"Selection"},{"attributes":{"overlay":{"id":"1276","type":"BoxAnnotation"}},"id":"1255","type":"BoxZoomTool"},{"attributes":{},"id":"1293","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1276","type":"BoxAnnotation"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1277","type":"BoxAnnotation"},{"attributes":{"label":{"value":"Replies"},"renderers":[{"id":"1284","type":"GlyphRenderer"}]},"id":"1296","type":"LegendItem"},{"attributes":{"callback":null,"overlay":{"id":"1277","type":"BoxAnnotation"}},"id":"1256","type":"BoxSelectTool"},{"attributes":{"bottom":{"field":"rt_rply"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"total_tweets"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1266","type":"VBar"},{"attributes":{"fill_color":{"value":"#FFE22B"},"line_color":{"value":"#FFE22B"},"top":{"field":"is_retweet"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1298","type":"VBar"},{"attributes":{"bottom":{"field":"rt_rply"},"fill_color":{"value":"#249DF0"},"line_color":{"value":"#249DF0"},"top":{"field":"total_tweets"},"width":{"value":0.8},"x":{"field":"index"}},"id":"1267","type":"VBar"}],"root_ids":["1236"]},"title":"Bokeh Application","version":"1.1.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1484').textContent;
+                  var render_items = [{"docid":"d6414c26-f5fb-4fbb-8a9d-eb739b9dda63","roots":{"1236":"8bfb4137-9a73-4505-acda-805b66b8658c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
